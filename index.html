@@ -33,13 +33,29 @@
         }
       } */
     </style>
+    <script>
+      function downloadStaticPDF() {
+        // Replace 'your_file_name.pdf' with the actual file name
+        const pdfUrl = "Resume - Shakil Khatri.pdf";
+        const link = document.createElement("a");
+        link.href = pdfUrl;
+        link.download = pdfUrl;
+        link.click();
+      }
+    </script>
   </head>
   <body class="min-w-[280mm] bg-gray-200">
     <div class="bg-gray-200 flex justify-center pt-8" id="buttonContainer">
-      <button
+      <!-- <button
         class="bg-teal-600 text-white rounded-md py-1 px-2"
         onclick="window.print()"
         title='Please select "Save as PDF" with "A3" size page'
+      >
+        <i class="fa fa-download mr-1" aria-hidden="true"></i> Download
+      </button> -->
+      <button
+        class="bg-teal-600 text-white rounded-3xl py-2 px-4 scale-150 md:scale-100 mb-5 md:mb-0"
+        onclick="downloadStaticPDF()"
       >
         <i class="fa fa-download mr-1" aria-hidden="true"></i> Download
       </button>
