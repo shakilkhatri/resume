@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume - Shakil Khatri</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- Ubuntu Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body,
+      .a4-container {
+        font-family: "Ubuntu", sans-serif;
+      }
+      @media print {
+        #buttonContainer {
+          display: none !important;
+        }
+      }
+
+      /* @media only screen and (max-width: 768px) {
+        body {
+          zoom: 0.35;
+        }
+      } */
+    </style>
+  </head>
+  <body class="min-w-[280mm] bg-gray-200">
+    <div class="bg-gray-200 flex justify-center pt-8" id="buttonContainer">
+      <button
+        class="bg-teal-600 text-white rounded-md py-1 px-2"
+        onclick="window.print()"
+        title='Please select "Save as PDF" with "A3" size page'
+      >
+        <i class="fa fa-download mr-1" aria-hidden="true"></i> Download
+      </button>
+    </div>
+
+    <div class="bg-gray-200 min-h-screen flex items-center justify-center">
+      <div
+        class="w-[250mm] bg-white shadow-lg rounded-lg p-8 m-4 md:m-8 relative"
+        id="document"
+      >
+        <div class="flex justify-between items-start">
+          <div class="flex">
+            <div class="w-8 h-[60px] bg-gray-800 absolute left-0"></div>
+            <div class="ml-4">
+              <h1 class="text-3xl font-bold">Shakil Khatri</h1>
+              <h2 class="text-xl text-teal-500">Senior Software Engineer</h2>
+              <p class="text-sm">
+                4.5 Years of Work Experience | Likes to work on challenging
+                tasks.
+              </p>
+            </div>
+          </div>
+          <div class="text-right text-sm flex flex-col gap-3">
+            <p class="flex justify-end items-center space-x-2">
+              <a href="mailto:khatri.shakilamd@gmail.com" class="text-blue-500"
+                >khatri.shakilamd@gmail.com</a
+              >
+              <i class="fas fa-envelope"></i>
+            </p>
+            <p class="flex justify-end items-center space-x-2">
+              <a href="tel:+919173300552" class="text-blue-500">91733 00552</a>
+              <i class="fas fa-phone"></i>
+            </p>
+
+            <p class="flex justify-end items-center space-x-2">
+              <span class="truncate">
+                <a
+                  href="https://linkedin.com/in/shakil-khatri-67666b68"
+                  target="_blank"
+                  class="text-blue-500"
+                >
+                  linkedin.com/in/shakil-khatri-67666b68
+                </a>
+              </span>
+              <i class="fab fa-linkedin"></i>
+            </p>
+            <p class="flex justify-end items-center space-x-2">
+              <span class="truncate">
+                <a
+                  href="https://github.com/shakilkhatri"
+                  target="_blank"
+                  class="text-blue-500"
+                >
+                  github.com/shakilkhatri
+                </a>
+              </span>
+              <i class="fab fa-github"></i>
+            </p>
+            <p class="flex justify-end items-center space-x-2">
+              <span>Hyderabad</span>
+              <i class="fas fa-map-marker-alt"></i>
+            </p>
+          </div>
+        </div>
+        <hr class="my-4" />
+        <div class="grid grid-cols-2 gap-4">
+          <div>
+            <h3 class="font-bold text-lg">WORK EXPERIENCE</h3>
+            <div class="flex items-start mt-2">
+              <div class="w-8 h-12 bg-teal-600 absolute left-0"></div>
+              <div class="ml-4">
+                <h4 class="font-bold">Senior Engineer</h4>
+                <p>Tata Elxsi Ltd (Hyderabad)</p>
+                <div class="flex justify-between">
+                  <p class="text-sm text-gray-600">08/2022 - Present</p>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-start mt-2">
+              <div class="w-8 h-12 bg-teal-600 absolute left-0"></div>
+              <div class="ml-4">
+                <h4 class="font-bold">Automation Engineer</h4>
+                <p>Adeptus Servo-Mechatronics Pvt Ltd (Hyderabad)</p>
+                <div class="flex justify-between">
+                  <p class="text-sm text-gray-600">10/2019 - 05/2022</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3 class="font-bold text-lg">SKILLS</h3>
+            <div class="flex flex-wrap mt-2">
+              <span
+                class="m-1 bg-gray-200 px-2 py-1 rounded inline-flex items-center"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
+                  alt="ReactJS"
+                  class="h-5 mr-2"
+                />
+                ReactJS
+              </span>
+              <span
+                class="m-1 bg-gray-200 px-2 py-1 rounded inline-flex items-center"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                  alt="JavaScript"
+                  class="h-5 mr-2"
+                />
+                JavaScript
+              </span>
+              <span
+                class="m-1 bg-gray-200 px-2 py-1 rounded inline-flex items-center"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+                  alt="Pure CSS"
+                  class="h-5 mr-2"
+                />
+                Pure CSS
+              </span>
+              <span
+                class="m-1 bg-gray-200 px-2 py-1 rounded inline-flex items-center"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg"
+                  alt="Tailwind CSS"
+                  class="h-5 mr-2"
+                />
+                Tailwind CSS
+              </span>
+              <span
+                class="m-1 bg-gray-200 px-2 py-1 rounded inline-flex items-center"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+                  alt="HTML"
+                  class="h-5 mr-2"
+                />
+                HTML
+              </span>
+
+              <span
+                class="m-1 bg-gray-200 px-2 py-1 rounded inline-flex items-center"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+                  alt="TypeScript"
+                  class="h-5 mr-2"
+                />
+                TypeScript
+              </span>
+              <span
+                class="m-1 bg-gray-200 px-2 py-1 rounded inline-flex items-center"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
+                  alt="Redux"
+                  class="h-5 mr-2"
+                />
+                Redux
+              </span>
+              <span
+                class="m-1 bg-gray-200 px-2 py-1 rounded inline-flex items-center"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg"
+                  alt="NextJS"
+                  class="h-5 mr-2"
+                />
+                NextJS
+              </span>
+              <span
+                class="m-1 bg-gray-200 px-2 py-1 rounded inline-flex items-center"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg"
+                  alt="MongoDB"
+                  class="h-5 mr-2"
+                />
+                MongoDB
+              </span>
+              <span
+                class="m-1 bg-gray-200 px-2 py-1 rounded inline-flex items-center"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
+                  alt="NodeJS"
+                  class="h-5 mr-2"
+                />
+                NodeJS
+              </span>
+              <span
+                class="m-1 bg-gray-200 px-2 py-1 rounded inline-flex items-center"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+                  alt="Python"
+                  class="h-5 mr-2"
+                />
+                Python
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="mt-4">
+          <div class="mt-8 grid grid-cols-2 gap-8">
+            <div>
+              <h3 class="font-bold text-lg">PROJECTS</h3>
+              <div class="mt-4">
+                <h4 class="font-bold">Tata Elxsi Intranet 2.0</h4>
+                <ul class="list-disc ml-5 mt-2 text-sm">
+                  <li>
+                    Led the frontend development from scratch for TATA ELXSI’s
+                    Intranet 2.0 (fully mobile-responsive), utilized by over
+                    13,000 employees.
+                  </li>
+                  <li>
+                    Integrated Azure AD for seamless calendar access, displaying
+                    daily meetings, birthdays, work anniversaries,
+                    organizational news and policies.
+                  </li>
+                  <li>
+                    Tech Stack: ReactJS, Redux, TypeScript, Pure CSS, MomentJS,
+                    SharePoint Framework (SPFX).
+                  </li>
+                </ul>
+              </div>
+              <div class="mt-4">
+                <h4 class="font-bold">Tata Elxsi iProfiler</h4>
+                <ul class="list-disc ml-5 mt-2 text-sm">
+                  <li>
+                    Developed website as a central employee database to
+                    streamline skill, project, and work experience management,
+                    facilitating resume generation in PDF and PPT formats for
+                    client engagements.
+                  </li>
+                  <li>Utilized by over 10,000 employees.</li>
+                  <li>Enabled SSO login through M365 integration.</li>
+                  <li>
+                    Tech Stack: ReactJS, Redux, JavaScript, Tailwind CSS,
+                    MongoDB.
+                  </li>
+                </ul>
+              </div>
+              <div class="mt-4">
+                <h4 class="font-bold">Tata Elxsi opIntel</h4>
+                <ul class="list-disc ml-5 mt-2 text-sm">
+                  <li>
+                    Contributed to an intelligent platform to identify and train
+                    candidates based on required skills using advanced machine
+                    learning techniques.
+                  </li>
+                  <li>
+                    Implemented sentence similarity algorithms with
+                    all-MiniLM-L6-v2 and utilized Llama 2 for extracting
+                    information from JDs.
+                  </li>
+                  <li>
+                    Designed and developed a rule-based chatbot, handling both
+                    frontend and backend tasks.
+                  </li>
+                  <li>Tech Stack: Python and MongoDB.</li>
+                </ul>
+              </div>
+              <div class="mt-4">
+                <h4 class="font-bold">
+                  Chatbot Powered by OpenAI (Personal)
+                  <a
+                    href="https://chatbot-wheat-three.vercel.app/"
+                    target="_blank"
+                    class="text-blue-500 ml-2"
+                    ><i class="fa fa-external-link"></i
+                  ></a>
+                </h4>
+                <ul class="list-disc ml-5 mt-2 text-sm">
+                  <li>
+                    Created a responsive chatbot interface with options to
+                    select between GPT-3.5, GPT-4.0 Turbo, and the latest GPT-4o
+                    models.
+                  </li>
+                  <li>
+                    Implemented custom instruction inputs for dynamic model
+                    response behavior.
+                  </li>
+                  <li>
+                    Secure with a dynamic password system that updates hourly.
+                  </li>
+                  <li>Tech Stack: ReactJS, JavaScript, CSS, Bootstrap.</li>
+                </ul>
+              </div>
+              <div class="mt-4">
+                <h4 class="font-bold">
+                  Password Manager (Personal)
+                  <a
+                    href="https://password-manager-v2.vercel.app/"
+                    target="_blank"
+                    class="text-blue-500 ml-2"
+                    ><i class="fa fa-external-link"></i
+                  ></a>
+                </h4>
+                <ul class="list-disc ml-5 mt-2 text-sm">
+                  <li>
+                    Developed a secure and encrypted password management
+                    application.
+                  </li>
+                  <li>Enabled phone number login with OTP verification.</li>
+                  <li>
+                    Built using NextJS 14, Tailwind CSS, Firebase, Firestore.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <h3 class="font-bold text-lg">EDUCATION</h3>
+              <div class="mt-4">
+                <h4 class="font-bold">M.Tech</h4>
+                <p class="text-sm">
+                  National Institute of Technology, Agartala
+                </p>
+                <p class="text-sm text-gray-600">2017 - 2019</p>
+                <p class="text-sm text-gray-600">9.12 CGPA</p>
+              </div>
+              <div class="mt-4">
+                <h4 class="font-bold">B.Tech</h4>
+                <p class="text-sm">Dharmshinh Desai University, Nadiad</p>
+                <p class="text-sm text-gray-600">2012 - 2016</p>
+                <p class="text-sm text-gray-600">8.12 CGPA</p>
+              </div>
+              <h3 class="font-bold text-lg mt-8">LANGUAGES</h3>
+              <div class="mt-4">
+                <p class="text-sm">
+                  English
+                  <span class="text-gray-600"
+                    >Full Professional Proficiency</span
+                  >
+                </p>
+                <p class="text-sm">
+                  Hindi
+                  <span class="text-gray-600"
+                    >Native or Bilingual Proficiency</span
+                  >
+                </p>
+                <p class="text-sm">
+                  Gujarati
+                  <span class="text-gray-600"
+                    >Native or Bilingual Proficiency</span
+                  >
+                </p>
+              </div>
+              <h3 class="font-bold text-lg mt-8">INTERESTS</h3>
+              <div class="flex flex-wrap mt-4">
+                <span class="m-1 bg-gray-200 px-2 py-1 rounded text-sm"
+                  >Web Development</span
+                >
+                <span class="m-1 bg-gray-200 px-2 py-1 rounded text-sm"
+                  >Mobile App Development</span
+                >
+                <span class="m-1 bg-gray-200 px-2 py-1 rounded text-sm"
+                  >Web Scraping</span
+                >
+                <span class="m-1 bg-gray-200 px-2 py-1 rounded text-sm"
+                  >Automation (Software and Hardware)</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
